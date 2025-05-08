@@ -1,0 +1,23 @@
+{
+  "name": "excel-file-modifier",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "\"node xlsx\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stork-OJT/excel-file-modifier.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Stork-OJT/excel-file-modifier/issues"
+  },
+  "homepage": "https://github.com/Stork-OJT/excel-file-modifier#readme",
+  "dependencies": {
+    "node-xlsx": "^0.24.0"
+  }
+}
