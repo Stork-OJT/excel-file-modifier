@@ -12,8 +12,11 @@ const data = [
   ["Vinnn", 19],
 ];
 
-const buffer = xlsx.build([{ name: sheet, data: data }]);
+const sheetOptions = {
+  "!cols": [{ wch: 20 }, { wch: 7 }, { wch: 10 }, { wch: 20 }],
+};
+const buffer = xlsx.build([{ name: sheet, data: data }], { sheetOptions });
 
-console.log(sheet);
+//console.log();
 
 fs.writeFileSync(fileURL, buffer);
